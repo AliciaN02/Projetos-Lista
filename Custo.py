@@ -22,3 +22,5 @@ custo_consumidor, valor_distribuidor, valor_impostos = calcular_custo_consumidor
 print(f"O custo ao consumidor é: {custo_consumidor:.2f} ")
 print(f"O valor do imposto é:{valor_impostos:.2f} ")
 print(f"O valor da porcentagem do distribuidor é: {valor_distribuidor:.2f}")
+
+print("Teste")
