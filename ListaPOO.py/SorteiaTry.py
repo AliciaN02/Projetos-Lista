@@ -6,7 +6,7 @@ class Sorteia:
     def sorteando(self): 
        try: 
         valor = int(input("Informe o valor de N: "))
-        if valor > 0:
+        if valor <= 0:
              raise ValueError("O número deve ser maior que zero")
         else: 
           numero = randint(1, valor)

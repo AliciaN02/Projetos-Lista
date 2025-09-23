@@ -25,7 +25,6 @@ usuario1.listaEmprestimos()
 print(f"Lista {usuario2.nome} - Matricula {usuario2.getMatricula()}")
 usuario2.listaEmprestimos()
 
-
 #Devolver Livros 
 usuario1.devolveLivros(livro1)
 usuario2.devolveLivros(livro3)

@@ -24,11 +24,11 @@ class AnaliseString:
     return "ifb" in self.texto.lower()
 
 
-texto = input("Digite uma string: ")
-analise = AnaliseString(texto)
+ texto = input("Digite uma string: ")
+ analise = AnaliseString(texto)
 
-print("Número de caracters: ", analise.contar_caracteres())
-print("Texto em minúsculo: ", analise.transformar_minusculo())
-print("Texto em maiusculo: ", analise.transforma_maiuscula())
-print("Contar vogais: ", analise.contar_vogais())
-print("Contém IFB? ", analise.contem_IFB())
+ print("Número de caracters: ", analise.contar_caracteres())
+ print("Texto em minúsculo: ", analise.transformar_minusculo())
+ print("Texto em maiusculo: ", analise.transforma_maiuscula())
+ print("Contar vogais: ", analise.contar_vogais())
+ print("Contém IFB? ", analise.contem_IFB())

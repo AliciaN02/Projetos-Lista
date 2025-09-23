@@ -44,15 +44,17 @@ class Pessoa:
 
 
 p1 = Pessoa(22, 'Alicia')
-
+#Testando os métodos "get" que retornam os valores atribuidos 
 print(f"Nome: {p1.getNome()}, Idade: {p1.getIdade()}, Nacionalidade: {p1.getNacionalidade()}, UF:{p1.getUF()}")
 print(f"Quantidade de pessoas criadas: {Pessoa.getContador()}")
 
+#Testando os métodos "set" que modificam os atributos
 p1.aumentaIdade(10)
 p1.diminueIdade()
 p1.setNome('Alicia Neves')
 p1.setUF('GO')
 
+#Verificando valores após alteração 
 print("\nVerificando valores depois das alterações: ")
 print(f"Nome: {p1.getNome()}, Idade: {p1.getIdade()}, Nacionalidade:{p1.getNacionalidade()}, UF: {p1.getUF()}")
 print(f"Quantidade de pessoas criadas: {Pessoa.getContador()}")

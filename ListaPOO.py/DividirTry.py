@@ -1,10 +1,8 @@
 class Dividir: 
-
-    def divisor(self): 
-    
+     def divisor(self): 
         try: 
-            valor = int(input("Informe o primeiro número: "))
-            valor2 = int(input("Informe o segundo número: "))
+            valor =float("Informe o primeiro número: "))
+            valor2 =float("Informe o segundo número: "))
             resultado = valor / valor2
             print("O valor dividido dos números é", resultado)
 
